@@ -1,0 +1,49 @@
+body,h1,h2,h3,h4,h5,h6 
+{
+    font-family:'Times New Roman', Times, serif;
+}
+body, html 
+{
+  height: 100%;
+  background-color: #efefef;
+  color: #217052;
+  background-image: url("30.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header{ 
+    text-align: center;
+    font-size: 2em ;
+    line-height: 2;
+}
+.btn-info{
+    background-color: #217052 !important;
+    color: #ffffff !important;
+    font-weight:750;
+    letter-spacing:1px ;
+    border: 2px solid #217052 !important;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #efefef !important;
+    color: #217052 !important;
+}
+table{
+    text-align: center;
+    border: 2px solid #217052 ;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+th{
+    background-image: linear-gradient(#22a875,#217052);
+   
+}
+td{
+    background-image: linear-gradient(#efefef, #efefef);
+}
+table, td, th {
+    border: 2px solid rgba(0, 0, 0, 0.103);
+}

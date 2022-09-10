@@ -1,0 +1,70 @@
+body,h1,h2,h3,h4,h5,h6 
+{
+    font-family:'Times New Roman', Times, serif;
+}
+body, html 
+{
+  height: 100%;
+  line-height: 1.8;
+  background-color: #efefef;
+}
+.bgimg-1
+{
+  background-size: cover;
+  background-image: url("image.png");
+  min-height: 100%;
+}
+li a:hover{
+  background-color: #217052;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.containt
+{
+  position: absolute;
+  font-size: 2.5em;;
+  color:#0e5c22;
+  line-height: 1.5;
+  top:25%;
+  right:35%;
+}
+button:hover{
+	transform: scale(1.1);
+}
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #0e5c22;
+  background-color:#efefef;
+  text-align: center;
+}
+#aboutpara {
+  background-color: #efefef;
+  padding-top: 1.7%;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+#features {
+  padding: 3%;
+  text-align: center;
+  color: #ffffff;
+  background-color:#0e5c22;
+}
+.feature-box {
+  padding: 2% 5%;
+  text-align: center;
+}
+footer{
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+#contact{
+  color: #0e5c22;
+  font-size: 1.1rem;
+  font-weight:500;
+}
+
+  
+  
